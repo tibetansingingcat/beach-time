@@ -11,7 +11,7 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 
 # --- Your beach and your rules -------------------------------------------
-LAT, LON = 34.01, -118.50          # Santa Monica. Change to your beach.
+LAT, LON = -36.785, 175.08         # Onetangi Beach, Waiheke Island
 NAME = "Beach time"
 DAYS = 7                           # forecast horizon
 MIN_HOURS = 2                      # shortest window worth an event
